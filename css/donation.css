@@ -1,0 +1,63 @@
+.donation{
+    background: var(--color-light-l);
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.donation__inner{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.donation__img{
+    max-width: 505px;
+}
+
+.donation__content {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donation__title {
+    max-width: 300px;
+}
+
+.donation__text {
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+}
+
+.donation__card {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 349px;
+    height: 43px;
+}
+
+.donation__card-img{
+    width: 30px;
+}
+
+.donation__card-number {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+}
+
+.donation__legal-text {
+    font-family: var(--second-family);
+    font-style: italic;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-dark-m);
+}
+

@@ -58,6 +58,7 @@
     line-height: 160%;
     font-weight: 400;
     color: var(--color-dark-s);
+    /* scroll-behavior: smooth; */
 }
 
 .header__menu-link:hover{

@@ -18,7 +18,7 @@
 .help__list{
     display: flex;
     flex-wrap: wrap;
-    gap: 120px;
+    gap: 55px 120px;
     justify-content: center;
 }
 
