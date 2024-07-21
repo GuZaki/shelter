@@ -2,13 +2,8 @@
     background: var(--color-light-l);
 }
 
-
 .pets__inner{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 60px;
 }
 
 .pets__title{
@@ -19,7 +14,6 @@
 .pets__slider{
     /* display: flex;
     order: 0; */
-  
 }
 
 .pets__btns{

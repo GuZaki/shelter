@@ -141,6 +141,12 @@ html {
     margin: 0 auto;
   }
 
+  .inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
   .title{
     font-family: var(--font-family);
     font-weight: 400;
