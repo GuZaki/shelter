@@ -1,0 +1,35 @@
+.help{
+
+}
+
+.help__inner{
+
+}
+
+.help__title{
+
+}
+
+.help__content{
+
+}
+
+.help__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+}
+
+.help__name{
+
+}
+
+.help__item{
+
+}
+                           
+.help__img{
+    width: 60px;
+    height: 60px;
+}

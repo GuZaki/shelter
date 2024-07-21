@@ -1,0 +1,38 @@
+.promo{
+    padding: 0;
+    height: 728px;
+    background: url('../img/promo-bg-puppy.png') no-repeat bottom right;
+}
+
+.promo__inner{
+    padding: 163px 0 243px;
+}
+
+.promo__content{
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.promo__title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: var(--color-light-xl);
+    max-width: 310px;
+}
+
+.promo__text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+}
+
+.promo__link{
+    width: 207px;
+    height: 52px;
+}
