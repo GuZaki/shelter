@@ -1,0 +1,95 @@
+.footer {
+    background:  var(--start-screen-gradient-background) radial-gradient(60% 111.8% at 0% 0%, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 100%); 
+}
+
+.footer__inner{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 160px; */
+}
+
+.footer__contacts{
+    max-width: 278px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.footer__contacts-title,
+.footer__locations-title {
+    color: var( --color-light-xl);
+    font-size: 34px;
+}
+
+.footer__link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+}
+
+.footer__link:hover {
+    color: var(--color-light-s);
+    transition: all 0.5s;
+}
+
+.footer__contacts-email,
+.footer__contacts-phone,
+.footer__locations-boston,
+.footer__locations-london {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer__locations {
+    max-width: 302px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.footer__locations-boston {
+}
+
+.footer__locations-london {
+}
+
+.footer__bg{
+    width: 300px;
+    height: 310px;
+}
+
+.email-icon {
+    /* width: 40px;
+    height: 32px; */
+}
+
+.email-link {
+
+}
+.phon-icon {
+    /* width: 42px;
+    height: 32px; */
+    
+}
+
+.phone-link {
+
+}
+
+.location-icon {
+    /* width: 22px; */
+    /* height: 32px; */
+    flex-shrink: 0;
+}
+
+.location-adress {
+
+}

@@ -3,12 +3,12 @@
 }
 
 .help__inner{
-
+    
 }
 
 .help__title{
     text-align: center;
-    max-width: 308px;
+    max-width: 310px;
 }
 
 .help__content{
@@ -19,6 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 55px 120px;
+    
     justify-content: center;
 }
 

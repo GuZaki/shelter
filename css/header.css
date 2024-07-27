@@ -45,7 +45,7 @@
 .header__menu > ul{
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    gap: 36px;
     height: 27px;
 }
 

@@ -21,7 +21,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    top: 50%;
+    top: 49%;
 }
 
 .left:hover > svg > rect,
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 29px;
     padding-bottom: 30px;
 }
 
@@ -65,8 +65,9 @@
 .slider__link{
     border: 2px solid var(--color-primary);
     text-align: center;
+    font-size: 19px;
     border-radius: 100px;
-    padding: 15px 45px;
+    padding: 15px 0;
     width: 187px;
     height: 52px;
 }
@@ -80,5 +81,6 @@
 .pets__link{
     width: 261px;
     height: 52px;
+    font-size: 19px;
 }
 

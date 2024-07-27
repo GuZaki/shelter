@@ -1,11 +1,11 @@
 .promo{
     padding: 0;
     height: 728px;
-    background: url('../img/promo-bg-puppy.png') no-repeat bottom right;
 }
 
 .promo__inner{
     padding: 163px 0 243px;
+    background: url('../img/promo-bg-puppy.png') no-repeat bottom right;
 }
 
 .promo__content{
@@ -35,4 +35,5 @@
 .promo__link{
     width: 207px;
     height: 52px;
+    font-size: 19px;
 }
