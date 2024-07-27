@@ -27,6 +27,8 @@ html {
     --font-family: "Georgia", sans-serif;
     --second-family: "Arial", sans-serif;
     --third-family: "Inter", sans-serif;
+
+    scroll-behavior: smooth;
 }
   
   /* @media (max-width: 1440px) {
