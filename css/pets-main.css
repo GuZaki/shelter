@@ -1,32 +1,31 @@
 .header-pets{
     margin: 0;
-    
 }
 
-.header__inner-pets > .header__logo > .header__title,
-.header__inner-pets > .header__logo > .header__subtitle,
+.header__inner-pets > .header__logo > a > .header__title,
+.header__inner-pets > .header__logo > a > .header__subtitle,
 .header__inner-pets > .header__menu > ul > .header__menu-item > .header__menu-link {
     color: var(--color-dark-l);
 }
-
 
 .header__inner-pets > .header__menu > ul > .header__menu-item > .header__menu-link:hover {
     color: var(--color-dark-3xl);
 }
 
-.header__inner-pets > .header__menu > ul > .header__menu-item > .header__menu-link:active,
-.active-pets {
+.header__inner-pets > .header__menu > ul > .header__menu-item > .header__menu-link:active{
     text-decoration: solid underline var(--color-primary) 3px;
     text-underline-offset: 6px;
     color: var(--color-dark-3xl);
 }
 
-.slider__content-pets{
-    gap: 30px 40px;
+.active-pets {
+    text-decoration: solid underline var(--color-primary) 3px;
+    text-underline-offset: 6px;
+    color: var(--color-dark-3xl) !important;
 }
 
-.inner-pets{
-    /* gap: 45px; */
+.slider__content-pets{
+    gap: 30px 40px;
 }
 
 .pets__btns-pets{
